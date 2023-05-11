@@ -1,29 +1,28 @@
-<header class="header">
+<header class="header container">
   <nav class="header__nav nav">
-    <div class="nav__menu">
-      <a href="#" class="nav__menu-link">Home</a>
-      <a href="#" class="nav__menu-link">Product</a>
-      <a href="#" class="nav__menu-link">Pricing</a>
-      <a href="#" class="nav__menu-link">About</a>
-      <a href="#" class="nav__menu-link">Contact</a>
-    </div>
-    <div class="nav__logo-container">
+    <div class="nav__container">
+      <div class="nav__menu hidden-element">
+        <a href="#" class="nav__menu-link">Home</a>
+        <a href="#" class="nav__menu-link">Product</a>
+        <a href="#" class="nav__menu-link">Pricing</a>
+        <a href="#" class="nav__menu-link">About</a>
+        <a href="#" class="nav__menu-link">Contact</a>
+      </div>
       <a href="#" class="nav__logo-link">
         <img src="img/logos/figmaland.png" alt="Figmaland" class="nav__logo" />
       </a>
     </div>
-    <div class="social-items">
-      <a href="#" class="social-link"><img class="social-icon" src="img/icons/twitter.png" alt="Twitter" /></a>
-      <a href="#" class="social-link"><img class="social-icon" src="img/icons/facebook.png" alt="Facebook" /></a>
-      <a href="#" class="social-link"><img class="social-icon" src="img/icons/linkedIn.png" alt="LinkedIn" /></a>
+    <div class="social-items hidden-element">
+      <a href="https://twitter.com/" target="_blank" class="social-link"><i class="fa-brands fa-twitter"></i></a>
+      <a href="https://uk-ua.facebook.com/" target="_blank" class="social-link"><i class="fa-brands fa-square-facebook"></i></a>
+      <a href="https://www.linkedin.com/" target="_blank" class="social-link"><i class="fa-brands fa-linkedin"></i></a>
     </div>
   </nav>
   <div class="header__hero">
-    <img class="header__background" src="img/background.png" alt="Laptop" />
     <h1 class="header__title">The best products start with Figma</h1>
     <p class="header__subtitle">
-      Most calendars are designed for teams. Slate is designed for freelancers
+      Most calendars are designed for teams. <span class="hidden-element">Slate is designed for freelancers</span>
     </p>
-    <a href="#" class="header__button button--primary">Try for free</a>
+    <a href="#" class="header__button button--primary">Try for <span class="hidden-element">free</span></a>
   </div>
 </header>
