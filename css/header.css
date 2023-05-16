@@ -3,7 +3,7 @@
   background-size: cover;
   background-position: 50% 50%;
   color: #fff;
-  height: 847px;
+  height: 100vh;
 }
 .header__nav {
   padding: 14px 7px 0 9px;
@@ -48,6 +48,7 @@
 .header__button {
   margin-top: 69px;
   line-height: 20px;
+  height: 52px;
 }
 
 @media (min-width: 800px) {

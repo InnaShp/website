@@ -10,6 +10,8 @@
   --main-color: #374754;
   --accent-color: #2091F9;
   --secondary-color: #252B42;
+  --input-background-color: #f5f5f5;
+  --border-color: #e8e8e8;
   --secondary-font-family: 'Roboto', sans-serif;
   font-family: 'Instrument Sans', sans-serif;
   scroll-behavior: smooth;
@@ -17,6 +19,7 @@
 
 img {
   display: block;
+  width: 100%;
 }
 
 .container {
