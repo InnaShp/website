@@ -1,0 +1,124 @@
+.pricing {
+  margin: auto;
+  padding: 121px 0 118px;
+  background-color: var(--secondary-color);
+  text-align: center;
+}
+
+.pricing__title {
+  color: #fff;
+}
+
+.pricing__subtitle {
+  color: #fff;
+}
+
+.pricing__list {
+  padding-top: 108px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.pricing__item {
+  height: 607px;
+  width: 335px;
+  background-color: #fff;
+  color: var(--secondary-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.pricing__item--standard {
+  background-color: var(--accent-color);
+  color: #fff;
+}
+
+.pricing__item .item__title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.pricing__item .item__paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  max-width: 144px;
+}
+
+.pricing__item .item__price-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.pricing__item .item__price-number {
+  font-weight: 700;
+  font-size: 74px;
+  line-height: 84px;
+}
+
+.pricing__item .item__price-details {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.pricing__item .item__price-symbol {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.pricing__item .item__links-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.pricing__item .item__link {
+  color: var(--secondary-color);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  text-decoration: none;
+}
+.pricing__item .item__link--standard {
+  color: #fff;
+}
+
+.pricing__item .item__link:hover {
+  text-decoration: underline;
+}
+
+.pricing__button {
+  width: 255px;
+  height: 56px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.pricing__button--standard {
+  background-color: #fff;
+  color: var(--accent-color);
+}
+.pricing__button:hover {
+  background-color: #fff;
+  color: var(--secondary-color);
+  border: 2px solid var(--secondary-color);
+}
+.pricing__button--standard:hover {
+  background-color: var(--accent-color);;
+  color: #fff;
+  border: 2px solid #fff;
+}
