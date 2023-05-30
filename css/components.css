@@ -4,6 +4,7 @@
   justify-content: space-between;
   align-items: center;
   width: 160px;
+  margin: auto;
 }
 .social-link {
   font-size: 33px;
