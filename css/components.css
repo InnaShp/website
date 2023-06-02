@@ -6,9 +6,11 @@
   width: 160px;
   margin: auto;
 }
+
 .social-link {
   font-size: 33px;
 }
+
 .section-title {
   color: var(--secondary-color);
   font-size: 48px;
@@ -16,12 +18,14 @@
   line-height: 55px;
   margin-bottom: 27px;
 }
+
 .section-subtitle {
   color: var(--main-color);
   font-size: 28px;
   line-height: 40px;
   padding: 0 20px;
 }
+
 .button--primary {
   background-color: var(--accent-color);
   border-radius: 35px;
@@ -34,6 +38,7 @@
   transition: all 0.5s ease-in-out;
   width: 236px;
 }
+
 .button--primary:hover {
   background-color: #fff;
   color: var(--accent-color);
@@ -48,7 +53,13 @@
   #hidden-element {
     display: contents;
   }
+
   .social-items {
     display: flex;
+  }
+
+  .section-subtitle {
+    max-width: 600px;
+    padding: 0;
   }
 }

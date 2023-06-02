@@ -1,6 +1,9 @@
 .features {
-    margin-top: 90px;
+    padding-top: 90px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .features__content {
@@ -54,4 +57,29 @@
 .features__video {
     min-height: 215px;
     margin: auto;
+}
+
+@media (min-width: 800px) {
+    .features__video-container {
+        min-width: 700px;
+    }
+
+    .features__video {
+        height: 400px;
+        width: 700px;
+    }
+
+    .features__content {
+        flex-direction: column-reverse;
+    }
+
+    .features__list {
+        flex-direction: row;
+        gap: 50px;
+    }
+
+    .features__item {
+        height: 257px;
+        justify-content: flex-start;
+    }
 }

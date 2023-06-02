@@ -34,6 +34,9 @@
 
 .footer__contact {
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .footer__contact .contact-link {
@@ -46,16 +49,47 @@
   text-decoration: none;
   font-size: 15px;
   margin-bottom: 20px;
+  width: 284px;
 }
 
-.footer__contact .contact-icon{
+.footer__contact .contact-icon {
   font-size: 30px;
   color: white;
 }
 
-.footer__contact .social-items{
+.footer__contact .social-items {
   margin-top: 30px;
 }
+
 .footer__contact .social-link {
   color: white;
+}
+
+@media (min-width: 800px) {
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 170px;
+  }
+
+  .footer__menu-container {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    text-align: start;
+  }
+
+  .footer__menu {
+    margin: 0;
+  }
+
+  .footer__contact {
+    margin: 0;
+  }
+
+  .footer__contact .social-items {
+    margin: 0;
+    align-self: flex-start;
+  }
 }

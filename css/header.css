@@ -5,14 +5,17 @@
   color: #fff;
   height: 100vh;
 }
+
 .header__nav {
   padding: 14px 7px 0 9px;
 }
-.header__nav  .nav__container {
+
+.header__nav .nav__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .header__nav .nav__menu-link {
   color: #fff;
   font-size: 15px;
@@ -20,12 +23,15 @@
   text-decoration: none;
   margin-left: 41px;
 }
+
 .header__nav .nav__menu-link:hover {
   text-decoration: underline;
 }
+
 .header__nav .social-link {
   color: #fff;
 }
+
 .header__hero {
   text-align: center;
   display: flex;
@@ -34,17 +40,20 @@
   align-items: center;
   margin: 0 20px;
 }
+
 .header__title {
   font-weight: 400;
   font-size: 48px;
   line-height: 55px;
   margin: 100px 0 27px;
 }
+
 .header__subtitle {
   font-size: 28px;
   line-height: 40px;
   padding: 0 10px;
 }
+
 .header__button {
   margin-top: 69px;
   line-height: 20px;
@@ -55,23 +64,28 @@
   .header {
     height: 930px;
   }
+
   .header__nav {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     padding: 50px 0 0;
   }
+
   .header__nav .nav__menu {
     display: flex;
   }
+
   .header__nav .nav__logo-link {
     margin-left: 45px;
   }
+
   .header__title {
     margin-top: 160px;
     font-weight: 700;
     max-width: 762px;
   }
+
   .header__subtitle {
     max-width: 766px;
   }

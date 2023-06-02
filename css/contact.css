@@ -17,7 +17,7 @@
 }
 
 .contact__info {
-  padding: 82px 0 68px;
+  padding: 20px 0 68px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -63,6 +63,7 @@
   align-items: center;
   gap: 45px;
   padding: 52px 0;
+  margin: auto;
 }
 
 .contact__card .card-title {
@@ -101,4 +102,44 @@
   height: 56px;
   align-self: start;
   margin-left: 24px;
+}
+
+@media (min-width: 800px) {
+  .contact__content {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact__subtitle {
+    margin: auto;
+  }
+
+  .contact__info {
+    flex-direction: column-reverse;
+    gap: 70px;
+    padding: 0 0 0 60px;
+  }
+
+  .contact__info-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact__card {
+    margin: 0;
+    padding: 0;
+  }
+
+  .contact__info-list {
+    flex-direction: row;
+    gap: 35px;
+    padding-bottom: 50px;
+  }
+
+  .contact__info-item {
+    flex-direction: column;
+    max-width: 290px;
+  }
 }

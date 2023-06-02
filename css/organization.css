@@ -24,3 +24,26 @@
   display: flex;
   justify-content: center;
 }
+
+@media (min-width: 800px) {
+  .organization {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 120px 100px;
+
+  }
+
+  .organization__content {
+    max-width: 540px;
+    margin: 0 auto;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .organization__image-container {
+    padding: 0;
+    height: 350px;
+  }
+}
