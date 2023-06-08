@@ -68,6 +68,13 @@
   margin-top: 12px;
   font-size: 20px;
   line-height: 20px;
+  border: 2px solid var(--accent-color);;
+}
+
+#subscribe__form-status {
+  margin-top: 80px;
+  margin-right: 170px;
+  position: absolute;
 }
 
 @media (min-width: 800px) {

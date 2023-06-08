@@ -11,9 +11,11 @@
     <div class="subscription__form-container">
       <div class="subscription__subtitle">Subscribe to our Newsletter</div>
       <p class="subscription__text">Available exclusivery on Figmaland</p>
-      <form class="subscription__form form">
-        <input class="form__input" type="email" value="Your Email">
-        <a href="#" class="form__button button--primary">Subscribe</a>
+      <form class="subscription__form form" action="https://formspree.io/f/xqkovnvl"
+      method="POST" id="subscribe__form">
+        <input class="form__input" id="subscribe__form-input" name="email" type="email" placeholder="Your Email" required>
+        <button class="form__button button--primary" id="subscribe__form-button" type="submit">Subscribe</button>
+        <div id="subscribe__form-status"></div>
       </form>
     </div>
   </div>
