@@ -45,12 +45,12 @@
   border: 2px solid var(--accent-color);
 }
 
-#hidden-element {
+.hidden-element {
   display: none;
 }
 
 @media (min-width: 800px) {
-  #hidden-element {
+  .hidden-element {
     display: contents;
   }
 
