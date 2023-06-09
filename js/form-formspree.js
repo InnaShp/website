@@ -1,12 +1,15 @@
-const form = document.querySelector("#contact__form");
-form.addEventListener("submit", handleSubmit);
+const contactForm = document.querySelector("#contact__form");
+const subscribeForm = document.querySelector("#subscribe__form");
+contactForm.addEventListener("submit", handleSubmit);
+subscribeForm.addEventListener("submit", handleSubmit);
 
 function handleSubmit(event) {
   event.preventDefault();
-  const status = document.getElementById("contact__form-status");
-  fetch(event.target.action, {
+  const form = event.target;
+  const status = form.querySelector(".status");
+  fetch(form.action, {
     method: 'POST',
-    body: new FormData(event.target),
+    body: new FormData(form),
     headers: {
       Accept: "application/json",
     },
@@ -36,6 +39,6 @@ function setStatusMessage(status, message, success) {
   status.classList.toggle("error", !success);
   setTimeout(() => {
     status.innerHTML = "";
-    status.className = "contact__form-status";
+    status.className = "status";
   }, 3000);
 }
