@@ -1,9 +1,9 @@
-const form = document.querySelector("#subscribe__form");
+const form = document.querySelector("#contact__form");
 form.addEventListener("submit", handleSubmit);
 
 function handleSubmit(event) {
   event.preventDefault();
-  const status = document.getElementById("subscribe__form-status");
+  const status = document.getElementById("contact__form-status");
   fetch(event.target.action, {
     method: 'POST',
     body: new FormData(event.target),
@@ -36,6 +36,6 @@ function setStatusMessage(status, message, success) {
   status.classList.toggle("error", !success);
   setTimeout(() => {
     status.innerHTML = "";
-    status.className = "subscribe__form-status";
+    status.className = "contact__form-status";
   }, 3000);
 }

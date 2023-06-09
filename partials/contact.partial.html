@@ -44,12 +44,14 @@
         </div>
       </div>
     </div>
-    <form class="contact__card card">
+    <form class="contact__card card" action="https://formspree.io/f/xzbqlqrz"
+    method="POST" id="contact__form">
       <div class="card-title">Contact Us</div>
-      <input class="card-input" type="text" placeholder="Your Name" name="name" id="name">
-      <input class="card-input" type="email" placeholder="Your Email" name="email" id="email">
-      <textarea class="card-textarea" cols="30" rows="10" placeholder="Your Message" name="message" id="message"></textarea>
-      <a class="contact__button button--primary" href="#">Send</a>
+      <input class="card-input" type="text" placeholder="Your Name" name="name" id="name" required>
+      <input class="card-input" type="email" placeholder="Your Email" name="email" id="email" required>
+      <textarea class="card-textarea" cols="30" rows="10" placeholder="Your Message" name="message" id="message" required></textarea>
+      <button class="contact__button button--primary" id="contact__form-button" type="submit">Send</button>
+      <div id="contact__form-status"></div>
     </form>
   </div>
 </section>
