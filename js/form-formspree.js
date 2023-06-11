@@ -40,5 +40,5 @@ function setStatusMessage(status, message, success) {
   setTimeout(() => {
     status.innerHTML = "";
     status.className = "status";
-  }, 3000);
+  }, 5000);
 }

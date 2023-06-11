@@ -49,6 +49,30 @@
   display: none;
 }
 
+.status {
+  position: fixed;
+  right: 10px;
+  top: 50%;
+  width: fit-content;
+  padding: 10px;
+  margin: 10px;
+  line-height: 1.8;
+  cursor: pointer;
+  color: #2c2c2c;
+}
+
+.status.success {
+  border-left: 4px solid #2ec946;
+  background-color: #c9f9d1db;
+  border-radius: 5px;
+}
+
+.status.error {
+  border: 1px solid #ff3838;
+  border-radius: 8px;
+  background-color: #f0bdbde6;
+}
+
 @media (min-width: 800px) {
   .hidden-element {
     display: contents;
