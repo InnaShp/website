@@ -4,33 +4,39 @@
 }
 
 .partners__carousel {
-  margin: 50px;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.partners__carousel-inner {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  transition: transform 0.5s ease-in-out;
 }
 
-.partners__carousel-slide {
-  margin: auto;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+.partners__carousel .partner-card {
+  flex: 0 0 100%;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
-.partners__carousel-slide img {
-  height: 70px;
+.partners__carousel .carousel__button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.7);
+  border: none;
+  font-size: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
 }
 
-.partners__carousel-button--prev, .partners__carousel-button--next {
-  font-size: 30px;
-  border-radius: 50%;
-  height: 50px;
-  width: 50px;
-  border: 1.5px solid var(--accent-color);
-  color: var(--accent-color);
-  background-color: white;
+.partners__carousel .carousel__button--prev {
+  left: 10px;
+}
+
+.partners__carousel .carousel__button--next {
+  right: 10px;
 }
 
 .partners__button {
