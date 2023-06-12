@@ -2,39 +2,19 @@
   text-align: center;
 }
 
-.subscription__content {
-  margin-top: 81px;
-}
-
 .subscription__image-container--desktop {
   display: none;
 }
 
 .subscription__image-container--mobile {
-  padding: 42px 0 69px;
   margin: auto;
-  max-width: 600px;
+  max-width: 500px;
+  padding: 42px 20px 69px;
 }
 
 .subscription__form-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.subscription__form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.subscription__text {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 25px;
-  margin: 10px 0 34px;
 }
 
 .subscription__title {
@@ -43,67 +23,65 @@
 
 .subscription__subtitle {
   font-size: 20px;
-  font-weight: 700;
-  line-height: 28px;
+  font-weight: var(--bold-font);
+  line-height: var(--main-line-height);
+}
+
+.subscription__text {
+  font-size: 18px;
+  line-height: 25px;
+  margin: 10px 0 34px;
+}
+
+.subscription__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .subscription__form .form__input,
 .subscription__form .form__button {
-  min-width: 300px;
-  max-width: 353px;
-  height: 54px;
   border-radius: 35px;
-  font-weight: 400;
+  height: 54px;
+  width: 310px;
 }
 
 .subscription__form .form__input {
-  font-size: 14px;
-  line-height: 16px;
   background-color: var(--input-background-color);
   border: 1px solid var(--border-color);
+  font-size: 14px;
   padding-left: 35px;
 }
 
 .subscription__form .form__button {
+  border: 2px solid var(--accent-color);
   margin-top: 12px;
-  font-size: 20px;
-  line-height: 20px;
-  border: 2px solid var(--accent-color);;
 }
 
-#subscribe__form-status {
-  margin-top: 80px;
-  margin-right: 170px;
-  position: absolute;
-}
-
-@media (min-width: 1024px) {
+@media (min-width: 1074px) {
   .subscription {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    padding: 150px 120px 0;
+    margin: 0 120px;
   }
 
   .subscription__image-container--desktop {
     display: flex;
+    min-width: 400px;
   }
 
   .subscription__image-container--mobile {
     display: none;
   }
 
-  .subscription__content {
-    max-width: 544px;
-    margin: 0;
-    padding-left: 50px;
-    text-align: left;
-  }
-
   .subscription__image {
     max-width: 600px;
-    margin: 0 auto;
+  }
+
+  .subscription__content {
+    padding-left: 50px;
+    text-align: left;
   }
 
   .subscription__form-container {
@@ -111,9 +89,7 @@
   }
 
   .subscription__form {
-    display: flex;
     flex-direction: row;
-    justify-content: center;
     gap: 12px;
   }
 
@@ -123,11 +99,5 @@
 
   .subscription__form .form__button {
     width: 172px;
-    margin: 0;
-  }
-
-  .subscription__form .form__input,
-  .subscription__form .form__button {
-    min-width: 0;
   }
 }

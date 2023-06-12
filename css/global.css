@@ -15,6 +15,8 @@
   --light-color: #fff;
   --off-screen-menu-background-color: #252b42fa;
   --secondary-font-family: 'Roboto', sans-serif;
+  --main-line-height: 28px;
+  --bold-font: 700;
   font-family: 'Instrument Sans', sans-serif;
   scroll-behavior: smooth;
 }
@@ -28,6 +30,10 @@ img {
   width: 100%;
 }
 
+.wrapper {
+  padding-top: 150px;
+}
+
 .container {
   max-width: 1700px;
   margin: auto;
@@ -35,4 +41,10 @@ img {
 
 .block-scroll {
   overflow-y: hidden;
+}
+
+@media (min-width: 1074px) {
+  .wrapper {
+    padding-bottom: 100px;
+  }
 }

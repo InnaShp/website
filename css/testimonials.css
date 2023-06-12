@@ -1,5 +1,4 @@
 .testimonials {
-  padding-top: 171px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -60,10 +59,10 @@
   height: 60px;
   font-weight: 700;
   line-height: 28px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1074px) {
   .testimonials__logo-link {
     height: 60px;
     width: 150px;

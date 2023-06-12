@@ -1,6 +1,6 @@
 .pricing {
   margin: auto;
-  padding: 121px 0 118px;
+  padding-bottom: 50px;
   background-color: var(--secondary-color);
   text-align: center;
 }
@@ -127,7 +127,11 @@
   border: 2px solid #fff;
 }
 
-@media (min-width:1024px) {
+@media (min-width:1074px) {
+  .pricing {
+    padding-bottom: 100px;
+  }
+
   .pricing__subtitle {
     margin: auto;
   }

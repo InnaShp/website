@@ -1,5 +1,4 @@
 .header__off-screen-menu {
-  
   background-color: var(--off-screen-menu-background-color);
   display: flex;
   flex-direction: column;
@@ -44,7 +43,8 @@
 }
 
 .header__ham-bar {
-  background-color: var(--light-color);;
+  background-color: var(--light-color);
+  ;
   border-radius: 25px;
   height: 2px;
   width: 70%;
@@ -83,7 +83,7 @@
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1074px) {
   .header__burger-menu {
     display: none;
   }

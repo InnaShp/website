@@ -1,13 +1,12 @@
 .partners {
   text-align: center;
-  margin-top: 174px;
 }
 
 .partners__carousel {
-  position: relative;
-  width: 100%;
   overflow: hidden;
   padding: 50px 0 30px;
+  position: relative;
+  width: 100%;
 }
 
 .partners__carousel-inner {
@@ -16,23 +15,23 @@
 }
 
 .partners__carousel .partner-card {
-  flex: 0 0 100%;
   box-sizing: border-box;
+  flex: 0 0 100%;
 }
 
 .partners__carousel .partner-card img {
-  width: fit-content;
   margin: auto;
+  width: fit-content;
 }
 
 .partners__button {
-  margin: auto;
-  font-weight: 700;
-  line-height: 28px;
+  font-weight: var(--bold-font);
+  line-height: var(--main-line-hight);
   height: 60px;
+  margin: auto;
 }
 
-@media (min-width:1024px) {
+@media (min-width:1074px) {
   .partners__subtitle {
     margin: auto;
   }
