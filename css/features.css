@@ -59,7 +59,7 @@
     margin: auto;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1024px) {
     .features__video-container {
         min-width: 700px;
     }

@@ -77,7 +77,7 @@
   position: absolute;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1024px) {
   .subscription {
     display: flex;
     flex-direction: row;

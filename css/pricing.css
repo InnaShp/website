@@ -127,7 +127,7 @@
   border: 2px solid #fff;
 }
 
-@media (min-width:800px) {
+@media (min-width:1024px) {
   .pricing__subtitle {
     margin: auto;
   }

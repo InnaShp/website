@@ -32,7 +32,7 @@
   height: 60px;
 }
 
-@media (min-width:800px) {
+@media (min-width:1024px) {
   .partners__subtitle {
     margin: auto;
   }

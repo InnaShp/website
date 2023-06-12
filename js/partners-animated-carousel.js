@@ -9,7 +9,7 @@ function showNextSlide() {
   carouselInner.style.transform = `translateX(-${currentIndex * 100}%)`;
 }
 
-function updateCarousel(){
+function updateCarousel() {
   if (isForward) {
     currentIndex++;
     if (currentIndex === partnerCards.length - 1) {
