@@ -25,30 +25,6 @@
   margin: auto;
 }
 
-
-.partners__carousel .carousel__button--next, .partners__carousel .carousel__button--prev {
-  position: absolute;
-  top: 45%;
-  transform: translateY(-50%);
-  background-color: transparent;
-  border: none;
-  font-size: 30px;
-  padding: 0 40px;
-  cursor: pointer;
-}
-
-.partners__carousel .carousel__button--next i, .partners__carousel .carousel__button--prev i {
-  color: #9199ad45;
-}
-
-.partners__carousel .carousel__button--prev {
-  left: 30px;
-}
-
-.partners__carousel .carousel__button--next {
-  right: 30px;
-}
-
 .partners__button {
   margin: auto;
   font-weight: 700;
